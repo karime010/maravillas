@@ -7,22 +7,22 @@ def index():
     
     return render_template("index.html")
 
-@app.route("/anim")
+@app.route("/anima")
 def animales():
     
     return render_template("animales.html")
 
-@app.route("/vehi")
+@app.route("/vehic")
 def vehiculos():
     
     return render_template("vehiculos.html")
 
-@app.route("/mara")
+@app.route("/marav")
 def maravillas():
     
     return render_template("maravillas.html")
 
-@app.route("/acer")
+@app.route("/acerc")
 def acercas():
     
     return render_template("acerca.html")
