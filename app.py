@@ -7,7 +7,7 @@ def index():
     
     return render_template("index.html")
 
-@app.route("/anima")
+@app.route("/animal")
 def animales():
     
     return render_template("animales.html")
